@@ -13,7 +13,7 @@ serde = { version = "1.0.215" }
 vercel_runtime = "1.1.4"
 
 [lib]
-path = "api/util.rs"
+path = "utils/util.rs"
 
 [[bin]]
 name = "hello"
