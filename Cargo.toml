@@ -3,7 +3,7 @@ name = "byte-api"
 description = "The public and private API for Byte's website."
 version = "0.1.0"
 authors = ["Hongmeng Zhai <zhaihongmeng@gmail.com>"]
-edition = "2024"
+edition = "2021"
 license = "MIT"
 
 [dependencies]
