@@ -14,7 +14,7 @@ import Link from "next/link";
 export default function Landing() {
   return (
     <section className="relative overflow-hidden h-[calc(100vh - 300px)]">
-      <div className="bg-slate-50 w-full h-screen flex justify-start items-center p-20 relative">
+      <div className="bg-slate-50 w-full h-screen flex justify-start items-center px-20 pt-20 relative">
         <div className="bg-grid-black/20 p-20 shadow-[inset_0px_0px_90px_90px] shadow-slate-50 -mt-20">
           <BoxReveal boxColor="rgba(0, 0, 0, 0.5)">
             <Link href="/">
@@ -44,7 +44,7 @@ export default function Landing() {
           </BoxReveal>
           <BoxReveal boxColor="rgba(0, 0, 0, 0.5)">
             <h2 className="font-mono text-2xl font-bold -mt-2 ml-2 drop-shadow-2xl">
-              y queremos cambiar el <em>mundo</em>.
+              y queremos cambiar el <span className="underline">mundo</span>.
             </h2>
           </BoxReveal>
         </div>

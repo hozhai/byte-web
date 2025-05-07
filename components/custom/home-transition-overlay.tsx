@@ -47,12 +47,6 @@ export default function HomeTransitionOverlay() {
           </BlurFade>
         </motion.div>
       </motion.div>
-      <motion.div
-        className="absolute left-0 h-screen w-screen bg-slate-50 z-10 inset-x-0 overflow-scroll"
-        style={{
-          top: topProgressCover,
-        }}
-      />
     </>
   );
 }
