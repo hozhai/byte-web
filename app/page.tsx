@@ -3,6 +3,7 @@ import Landing from "@components/section/landing";
 import HeroVideoDialog from "@/components/magicui/hero-video-dialog";
 import { ScrollProgress } from "@/components/magicui/scroll-progress";
 import { TextReveal } from "@/components/magicui/text-reveal";
+import { Instagram, Mail } from "lucide-react";
 
 export default function Home() {
   return (
@@ -11,7 +12,10 @@ export default function Home() {
       <ScrollProgress className="h-2" />
       <HomeTransitionOverlay />
 
-      <section className="h-screen relative bg-slate-50 -mt-52 shadow-xl">
+      <section
+        className="h-screen relative bg-slate-50 -mt-52 shadow-xl"
+        id="introduccion"
+      >
         <h2 className="text-center mt-32 pt-10 text-6xl font-mono font-black">
           ¿Quienes somos?
         </h2>
@@ -23,8 +27,19 @@ export default function Home() {
           thumbnailAlt="Dummy Video Thumbnail"
         />
       </section>
-      <section>
-        <h2>Redes Sociales</h2>
+      <section id="contactanos" className="h-[170px]">
+        <h2 className="mt-20 ml-20 text-3xl font-mono font-black">
+          &gt; Contáctanos!
+        </h2>
+        <ul className="list-decoration-none ml-20 mt-5">
+          <li className="flex">
+            <Instagram className="mr-2" /> @byte.robotics
+          </li>
+          <li className="flex mt-2">
+            <Mail className="mr-2" /> info@byterobotics.cl
+          </li>
+        </ul>
+        <p className="text-center">Byte Robotics - GNU GPLv3 - 2025</p>
       </section>
     </>
   );

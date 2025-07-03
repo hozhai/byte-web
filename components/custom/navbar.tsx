@@ -16,15 +16,15 @@ export function NavbarDemo() {
   const navItems = [
     {
       name: "Introducción",
-      link: "#features",
-    },
-    {
-      name: "Equipo",
-      link: "#pricing",
+      link: "/#introduccion",
     },
     {
       name: "Contáctanos",
-      link: "#contact",
+      link: "/#contactanos",
+    },
+    {
+      name: "Circuito 2025",
+      link: "/circuito",
     },
   ];
 

@@ -7,6 +7,7 @@ import {
   useScroll,
   useMotionValueEvent,
 } from "motion/react";
+import Link from "next/link";
 
 import React, { useRef, useState } from "react";
 
@@ -231,13 +232,17 @@ export const MobileNavToggle = ({
 
 export const NavbarLogo = () => {
   return (
-    <a
-      href="#"
+    <Link
+      href="/"
       className="relative z-20 mr-4 flex items-center space-x-2 px-2 py-1 text-sm font-normal text-black"
     >
-      <img src="" alt="logo" width={30} height={30} />
-      <span className="font-medium text-black dark:text-white">Byte</span>
-    </a>
+      <img
+        src="https://github.com/hozhai/byte-web/blob/main/assets/byte.png?raw=true"
+        alt="logo"
+        width={30}
+        height={30}
+      />
+    </Link>
   );
 };
 
