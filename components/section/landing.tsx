@@ -17,15 +17,15 @@ export default function Landing() {
       <div className="bg-slate-50 w-full h-screen flex justify-start items-center px-20 pt-20 relative">
         <div className="bg-grid-black/20 p-20 shadow-[inset_0px_0px_90px_90px] shadow-slate-50 -mt-20">
           <BoxReveal boxColor="rgba(0, 0, 0, 0.5)">
-            <Link href="/">
+            <Link href="/circuito">
               <AnimatedGradientText className="z-10 flex items-center justify-start mx-0 cursor-pointer">
                 🎉 <hr className="mx-2 h-4 w-px shrink-0 bg-gray-300" />{" "}
                 <span
                   className={cn(
-                    "inline animate-gradient bg-gradient-to-r from-[#22d3ee] via-[#f472b6] to-[#22d3ee] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent",
+                    "inline animate-gradient bg-gradient-to-r from-[#22d3ee] via-[#f472b6] to-[#22d3ee] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent"
                   )}
                 >
-                  Estás interesad@ en Robothon 2025?
+                  Estás interesad@ en Circuito Byte 2025?
                 </span>
                 <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
               </AnimatedGradientText>
