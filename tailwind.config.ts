@@ -15,6 +15,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        display: ["var(--font-press-start)"],
         sans: ["var(--font-geist-sans)"],
         mono: ["var(--font-geist-mono)"],
       },
@@ -79,6 +80,8 @@ export default {
   },
   plugins: [
     require("tailwindcss-animate"),
+    require("@designbycode/tailwindcss-text-stroke"),
+    require("twglow"),
     addVariablesForColors,
     ({ matchUtilities, theme }: any) => {
       matchUtilities(

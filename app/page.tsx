@@ -2,7 +2,6 @@ import HomeTransitionOverlay from "@components/custom/home-transition-overlay";
 import Landing from "@components/section/landing";
 import HeroVideoDialog from "@/components/magicui/hero-video-dialog";
 import { ScrollProgress } from "@/components/magicui/scroll-progress";
-import { TextReveal } from "@/components/magicui/text-reveal";
 import { Instagram, Mail } from "lucide-react";
 
 export default function Home() {

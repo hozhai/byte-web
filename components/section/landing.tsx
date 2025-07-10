@@ -36,7 +36,7 @@ export default function Landing() {
               Somos{" "}
               <SparklesText
                 text="Byte"
-                className="inline text-8xl"
+                className="inline text-8xl z-30"
                 colors={{ first: "cyan", second: "hotpink" }}
                 sparklesCount={10}
               />
@@ -63,20 +63,7 @@ export default function Landing() {
       ))}
 
       <BlurFade
-        className="absolute h-96 w-96 top-[35%] right-[25%] drop-shadow-2xl"
-        delay={0.4}
-      >
-        <RandomBlob className="bg-transparent h-96 w-96 overflow-hidden">
-          <Image
-            src="https://placehold.co/600x600/png"
-            alt="Placeholder"
-            height={600}
-            width={600}
-          />
-        </RandomBlob>
-      </BlurFade>
-      <BlurFade
-        className="absolute h-96 w-96 top-[25%] right-[10%] drop-shadow-2xl"
+        className="absolute h-96 w-96 top-[30%] right-[15%] drop-shadow-2xl"
         delay={0.5}
       >
         <RandomBlob className="bg-transparent h-96 w-96 overflow-hidden">
