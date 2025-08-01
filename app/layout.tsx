@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { NavbarDemo } from "@/components/custom/navbar";
 import { Press_Start_2P } from "next/font/google";
+import ProgressiveBlur from "@/components/magicui/progressive-blur";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

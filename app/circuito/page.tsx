@@ -4,6 +4,8 @@ import { motion } from "motion/react";
 import { ScrollProgress } from "@/components/magicui/scroll-progress";
 import { TextAnimate } from "@/components/magicui/text-animate";
 import { RainbowButton } from "@/components/magicui/rainbow-button";
+import Footer from "@/components/section/footer";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -71,7 +73,18 @@ export default function Page() {
           necesitas saber programar; solo necesitas tener ganas de crear y
           participar.
         </p>
+        <div className="flex justify-center mt-20">
+          <Link href="#">
+            <button className="p-[3px] relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-[#f472b6] to-[#22d3ee] rounded-lg" />
+              <div className="px-8 py-2 bg-white rounded-[6px]  relative group transition duration-200 text-black hover:bg-transparent hover:text-white">
+                ¡Inscribete aquí!
+              </div>
+            </button>
+          </Link>
+        </div>
       </section>
+      <Footer />
     </>
   );
 }
