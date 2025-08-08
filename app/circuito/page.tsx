@@ -56,22 +56,33 @@ export default function Page() {
           estudiantes de 1º a 4º medio que quieran meterse al mundo de la
           electrónica y la programación desde cero, con desafíos semanales y un
           cierre épico.
+          <br />
+          En el Circuito Byte les enseñarnos distintas habilidades que se
+          necesitan en la robótica:{" "}
         </p>
-        <h2 className="font-mono text-3xl ml-48 mt-24">&gt; ¿Cómo funciona?</h2>
+        <ol className="mx-48 mt-10 text-xl">
+          <li>
+            1. Fundamentos de la Electrónica: Cómo crear circuitos y usar
+            microcontroladores.
+          </li>
+          <li>2. Fundamentos de la Programación</li>
+          <li>3. Fundamentos del Diseño</li>
+        </ol>
         <p className="mx-48 mt-10 text-xl">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos id
-          itaque libero, ipsam sunt error temporibus, ex iusto nulla voluptate
-          repudiandae, quod veritatis! Magnam omnis esse delectus voluptatibus
-          sed quod.
+          El Circuito finaliza con la creación de proyectos propios en grupo
+          para presentar en el evento final.
         </p>
-
+        <h2 className="font-mono text-3xl ml-48 mt-24">&gt; ¿Cuándo es?</h2>
+        <p className="mx-48 mt-10 text-xl">
+          Las actividades semanales serán los días x y z a las w horas
+        </p>
         <h2 className="font-mono text-3xl ml-48 mt-24">
           &gt; ¿Quién puede participar?
         </h2>
         <p className="mx-48 mt-10 text-xl">
-          Si estás en enseñanza media y te tinca la robótica, estás invitado! No
-          necesitas saber programar; solo necesitas tener ganas de crear y
-          participar.
+          Si estás en enseñanza media, tienes entre 14 y 18 años y te tinca la
+          robótica, estás invitado! No necesitas saber programar; solo necesitas
+          tener ganas de crear y participar.
         </p>
         <div className="flex justify-center mt-20">
           <Link href="#">
