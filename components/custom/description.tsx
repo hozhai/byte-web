@@ -9,7 +9,7 @@ interface Props {
 
 export default function Description(props: Props) {
   return (
-    <div className="bg-accent mx-96 p-10 mt-20 rounded-xl flex justify-center items-center space-x-12">
+    <div className="bg-accent p-10 mt-20 rounded-xl flex justify-center items-center space-x-12">
       <Image
         src={props.imageUrl || "https://placehold.co/256x256/png"}
         className="h-64 w-64 rounded-3xl"

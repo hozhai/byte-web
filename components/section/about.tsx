@@ -2,6 +2,8 @@
 
 import HeroVideoDialog from "../magicui/hero-video-dialog";
 import Description from "../custom/description";
+import BlurFade from "../ui/blur-fade";
+import FloatingTriangle from "../custom/floating-triangle";
 
 export default function About() {
   return (
@@ -28,7 +30,7 @@ export default function About() {
         thumbnailAlt="Dummy Video Thumbnail"
       />
 
-      <div className="mt-20 pb-20">
+      <div className="mt-20 mx-32 pb-20">
         <Description
           name="Gabriela Urzúa"
           description="Soy Gabriela Urzúa, fundadora de Byte. Me apasiona la ingeniería, la invención y todo lo que implique aprender haciendo. Participo representando a Chile en la competencia internacional de robótica FIRST Global, una experiencia que me ha permitido desarrollar mis habilidades tecnológicas y el trabajo en equipo. Byte nació porque quería construir un espacio donde podamos experimentar, equivocarnos, aprender y lograr cosas increíbles juntos. Creo en la tecnología como una herramienta para transformar ideas en soluciones, y en el trabajo en equipo como el motor que lo hace posible."
@@ -49,8 +51,16 @@ export default function About() {
           description="Hola todos, me llamo Niek, tengo 15 años y he vivido en Chile por 4 años. Originalmente soy de Holanda pero también he vivido en Italia. Me gusta mucho el proceso de diseño y la robótica. Un proyecto en el que estoy trabajando es crear un BB-8 (robot de Star Wars) que realmente funciona. Mi español no esta muy bueno porque solo aprendi por 4 años."
           imageUrl=""
         />
-        <Description name="Samuel Vieyra" description="Lorem" imageUrl="" />
-        <Description name="Emilia Graether" description="Lorem" imageUrl="" />
+        <Description
+          name="Samuel Vieyra"
+          description="Hola, soy Samuel o Samu. Tengo 16 años, soy chileno y argentino, pero he vivido en Chile toda mi vida. Soy un buceador con licencia de fotografía, me encanta encontrar cosas nuevas, y me apasiona la robótica mecánica, entre hacer prototipos de aviones o autitos hechos con trampas de ratón. Me uní a Byte en 2023 porque me interesó el club y pienso que puede llegar a ser algo increíble."
+          imageUrl=""
+        />
+        <Description
+          name="Emilia Graether"
+          description="Soy Emilia Graether y ocupo el puesto de diseño de redes sociales. Me importan los derechos humanos y salud mental, y uso mi pasiones por escribir y robótica para apoyar estos ideales. Mi convicción por Byte viene de un lugar de pasión por la robótica y mi preocupación por otros humanos. Yo creo que podemos usar robótica para promover avances en la ayuda a los demás. He realizado proyectos que ayudan a estas ideas sin incluir la robótica, incluyendo la participación en un proyecto de terapia de perros y gatos para ayudar a los estudiantes en escuelas, el diseño de carteles de salud mental, y mucho mas. También he trabajado con robótica durante muchos años, ganando parte de una conferencia de Latin thinks con una amiga y haciendo robótica en clases. Byte es una oportunidad maravillosa para ayudar a las personas que lo necesitan."
+          imageUrl=""
+        />
       </div>
     </section>
   );
