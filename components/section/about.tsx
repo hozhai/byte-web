@@ -44,12 +44,12 @@ export default function About() {
         <Description
           name="Niek Stoffels"
           description="Hola todos, me llamo Niek, tengo 15 años y he vivido en Chile por 4 años. Originalmente soy de Holanda pero también he vivido en Italia. Me gusta mucho el proceso de diseño y la robótica. Un proyecto en el que estoy trabajando es crear un BB-8 (robot de Star Wars) que realmente funciona. Mi español no esta muy bueno porque solo aprendi por 4 años."
-          imageUrl="public/niek.jpg"
+          imageUrl="https://github.com/hozhai/byte-web/blob/main/public/niek.jpg?raw=true"
         />
         <Description
           name="Samuel Vieyra"
           description="Hola, soy Samuel o Samu. Tengo 16 años, soy chileno y argentino, pero he vivido en Chile toda mi vida. Soy un buceador con licencia de fotografía, me encanta encontrar cosas nuevas, y me apasiona la robótica mecánica, entre hacer prototipos de aviones o autitos hechos con trampas de ratón. Me uní a Byte en 2023 porque me interesó el club y pienso que puede llegar a ser algo increíble."
-          imageUrl="public/sam.jpg"
+          imageUrl="https://github.com/hozhai/byte-web/blob/main/public/sam.jpg?raw=true"
         />
         <Description
           name="Emilia Graether"
