@@ -76,6 +76,14 @@ export default function Landing() {
         </RandomBlob>
       </BlurFade>
 
+      <div
+        className="bg-white w-screen h-20 absolute bottom-0 left-0 drop-shadow-lg"
+        style={{
+          clipPath:
+            "polygon(32% 9%, 60% 16%, 100% 11%, 100% 100%, 0 100%, 0% 60%, 0 16%)",
+        }}
+      ></div>
+
       <Particles
         className="absolute inset-0"
         quantity={200}
