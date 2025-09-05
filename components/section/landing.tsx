@@ -26,7 +26,7 @@ const LANDING_CONTENT = {
 
 export default function Landing() {
   return (
-    <section className="relative overflow-hidden h-[70vh] lg:h-[calc(100vh-300px)]">
+    <section className="relative overflow-hidden h-[70vh] lg:h-screen">
       <div className="bg-slate-50 w-full h-full flex flex-col lg:flex-row justify-center lg:justify-start items-center px-4 sm:px-8 md:px-20 pt-20 pb-10 lg:pb-0 relative">
         <div className="bg-grid-black/20 p-4 sm:p-8 md:p-20 shadow-[inset_0px_0px_90px_90px] shadow-slate-50 -mt-10 lg:-mt-20 max-w-full lg:max-w-none">
           <BoxReveal boxColor="rgba(0, 0, 0, 0.5)">
