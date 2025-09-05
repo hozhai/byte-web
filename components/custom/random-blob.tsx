@@ -1,7 +1,7 @@
 "use client";
 
-import { cn } from "@utils";
 import React, { useEffect } from "react";
+import { cn } from "@/lib/utils";
 
 interface RandomBlobProps {
   className?: string;

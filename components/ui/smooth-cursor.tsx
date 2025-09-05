@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useSpring } from "motion/react";
-import { FC, JSX, useEffect, useRef, useState } from "react";
+import { type FC, type JSX, useEffect, useRef, useState } from "react";
 
 interface Position {
   x: number;
@@ -130,7 +130,7 @@ export function SmoothCursor({
       updateVelocity(currentPos);
 
       const speed = Math.sqrt(
-        Math.pow(velocity.current.x, 2) + Math.pow(velocity.current.y, 2),
+        velocity.current.x ** 2 + velocity.current.y ** 2,
       );
 
       cursorX.set(currentPos.x);

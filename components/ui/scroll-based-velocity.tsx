@@ -9,10 +9,9 @@ import {
   useTransform,
   useVelocity,
 } from "framer-motion";
-import React, { useEffect, useRef, useState } from "react";
-
-import { cn } from "@/lib/utils";
 import { nanoid } from "nanoid";
+import React, { useEffect, useRef, useState } from "react";
+import { cn } from "@/lib/utils";
 
 interface VelocityScrollProps {
   text: string;

@@ -1,8 +1,7 @@
+import svgToDataUri from "mini-svg-data-uri";
 import type { Config } from "tailwindcss";
 
-import svgToDataUri from "mini-svg-data-uri";
-
-// @ts-ignore
+// @ts-expect-error
 import { default as flattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette";
 
 export default {

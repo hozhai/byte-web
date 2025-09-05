@@ -1,10 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useEffect, useId, useRef, useState } from "react";
-
-import { cn } from "@/lib/utils";
 import { nanoid } from "nanoid";
+import { useEffect, useId, useRef, useState } from "react";
+import { cn } from "@/lib/utils";
 
 interface AnimatedGridPatternProps {
   width?: number;

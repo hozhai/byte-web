@@ -1,32 +1,36 @@
 import BlurFade from "@/components/ui/blur-fade";
-import { cn } from "@utils";
+import { randomDelay } from "@/lib/helpers";
+import type { TriangleProps } from "@/lib/types";
+import { cn } from "@/lib/utils";
 
-/*
-  Color is a number that will decide whether it's cyan or purple.
-  Position is an XY tuple that dictates where the shape will end up.
-  Rotation is a number that dictates the rotation of the shape.
- */
-interface TriangleProps {
-  color: number;
-  position: number[];
-  rotation: number;
-  className?: string;
-}
+const TRIANGLE_COLORS = {
+  0: "bg-pink-500",
+  1: "bg-cyan-200",
+} as const;
 
-export default function FloatingTriangle(props: TriangleProps) {
+export default function FloatingTriangle({
+  color,
+  position,
+  rotation,
+  className,
+}: TriangleProps) {
   return (
     <div
-      className="absolute drop-shadow-2xl"
-      style={{ bottom: props.position[1], left: props.position[0] }}
+      className={cn("absolute drop-shadow-2xl", className)}
+      style={{
+        bottom: position[1],
+        left: position[0],
+      }}
     >
-      <BlurFade delay={Math.trunc(Math.random() * 8 + 1) / 10}>
+      <BlurFade delay={randomDelay(0.1, 0.8)}>
         <div
           className={cn(
-            "h-[40rem] w-64 absolute opacity-50 hover:opacity-75 transition-opacity",
-            props.color ? "bg-cyan-200" : "bg-pink-500",
+            "h-[40rem] w-64 absolute opacity-50 hover:opacity-75 transition-opacity duration-300",
+            TRIANGLE_COLORS[color as keyof typeof TRIANGLE_COLORS] ||
+              TRIANGLE_COLORS[0],
           )}
           style={{
-            transform: `rotate(${props.rotation}deg)`,
+            transform: `rotate(${rotation}deg)`,
             clipPath: "polygon(50% 0%, 0% 100%, 100% 100%)",
           }}
         />
