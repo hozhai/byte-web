@@ -21,7 +21,7 @@ const LANDING_CONTENT = {
   announcement: "Estás interesad@ en Circuito Byte 2025?",
   title: "Somos Byte",
   subtitle: "y queremos cambiar el mundo.",
-  placeholderImage:
+  image:
     "https://github.com/hozhai/byte-web/blob/main/public/group.jpeg?raw=true",
 } as const;
 
@@ -86,10 +86,10 @@ export default function Landing() {
       >
         <RandomBlob className="bg-transparent h-full w-full overflow-hidden">
           <Image
-            src={LANDING_CONTENT.placeholderImage}
+            src={LANDING_CONTENT.image}
             alt="Imagen representativa de Byte"
             height={600}
-            width={600}
+            width={800}
             className="object-cover w-full h-full"
           />
         </RandomBlob>

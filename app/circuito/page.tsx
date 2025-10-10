@@ -100,7 +100,7 @@ export default function Page() {
           </p>
 
           <div className="flex justify-center">
-            <Link href="#">
+            <Link href="https://forms.gle/eiNX1W2N3t6Xdhtj6" target="_blank">
               <button type="button" className="p-[3px] relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-[#f472b6] to-[#22d3ee] rounded-lg" />
                 <div className="px-6 sm:px-8 py-2 sm:py-3 bg-white rounded-[6px] relative group transition duration-200 text-black hover:bg-transparent hover:text-white text-sm sm:text-base">
