@@ -87,7 +87,8 @@ export default function Page() {
             &gt; ¿Cuándo es?
           </h2>
           <p className="text-base sm:text-lg md:text-xl leading-relaxed mb-12 sm:mb-16 md:mb-20">
-            Las actividades semanales serán los días x y z a las w horas
+            Las actividades semanales serán los días 20 y 30 de octubre, 6, 13,
+            20 y 27 de noviembre desde las 17 a 20 hrs.
           </p>
 
           <h2 className="font-mono text-xl sm:text-2xl md:text-3xl mb-6 sm:mb-8 md:mb-10">
