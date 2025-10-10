@@ -21,7 +21,8 @@ const LANDING_CONTENT = {
   announcement: "Estás interesad@ en Circuito Byte 2025?",
   title: "Somos Byte",
   subtitle: "y queremos cambiar el mundo.",
-  placeholderImage: "https://placehold.co/600x600/png",
+  placeholderImage:
+    "https://github.com/hozhai/byte-web/blob/main/public/group.jpeg?raw=true",
 } as const;
 
 export default function Landing() {
