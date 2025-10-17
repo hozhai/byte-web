@@ -40,6 +40,13 @@ export const TEAM_MEMBERS = [
       "Soy Emilia Graether y ocupo el puesto de diseño de redes sociales. Me importan los derechos humanos y salud mental, y uso mi pasiones por escribir y robótica para apoyar estos ideales. Mi convicción por Byte viene de un lugar de pasión por la robótica y mi preocupación por otros humanos. Yo creo que podemos usar robótica para promover avances en la ayuda a los demás. He realizado proyectos que ayudan a estas ideas sin incluir la robótica, incluyendo la participación en un proyecto de terapia de perros y gatos para ayudar a los estudiantes en escuelas, el diseño de carteles de salud mental, y mucho mas. También he trabajado con robótica durante muchos años, ganando parte de una conferencia de Latin thinks con una amiga y haciendo robótica en clases. Byte es una oportunidad maravillosa para ayudar a las personas que lo necesitan.",
     imageUrl: "",
   },
+  {
+    name: "Brielle Keith",
+    description:
+      "Hola, soy Brielle, tengo 15 años. Soy de los Estados Unidos, pero he vivido en seis países diferentes y he estado en seis continentes. Practico muchos deportes, incluyendo natación, ciclismo de montaña y esquí. Soy muy creativa y me encanta colaborar con otras personas y ser parte de un equipo, que es la razón principal por la que me uní a BYTE. ¡Estoy muy emocionada de ser parte de este club para aprender más sobre robótica y divertirme!",
+    imageUrl:
+      "https://github.com/hozhai/byte-web/blob/main/public/brielle.jpg?raw=true",
+  },
 ] as const;
 
 export const CONTACT_INFO = {
