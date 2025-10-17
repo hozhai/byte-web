@@ -3,13 +3,15 @@ export const TEAM_MEMBERS = [
     name: "Gabriela Urzúa",
     description:
       "Soy Gabriela Urzúa, fundadora de Byte. Me apasiona la ingeniería, la invención y todo lo que implique aprender haciendo. Participo representando a Chile en la competencia internacional de robótica FIRST Global, una experiencia que me ha permitido desarrollar mis habilidades tecnológicas y el trabajo en equipo. Byte nació porque quería construir un espacio donde podamos experimentar, equivocarnos, aprender y lograr cosas increíbles juntos. Creo en la tecnología como una herramienta para transformar ideas en soluciones, y en el trabajo en equipo como el motor que lo hace posible.",
-    imageUrl: "",
+    imageUrl:
+      "https://github.com/hozhai/byte-web/blob/main/public/gaby.jpg?raw=true",
   },
   {
     name: "Hongmeng Zhai",
     description:
       "Heyy, soy Hongmeng Zhai, pero todos me llaman Zhai. Soy el vice-presidente y programador de Byte — de hecho, yo soy quien programó esta página web, si hay cualquier imperfección, me lo pueden decir a mi :). Tengo 17 años, y como ya pueden haber adivinado, me encanta la programación, ambos de tipo recreativo y competitivo, la música, e ir al gimnasio. He participado en FIRST Lego League, SAAC Stem 2024 y SAAC Fine Arts 2025. Toco la guitarra, el saxofón, el violín, y el clarinete. Estoy emocionado de conocerlos!!!",
-    imageUrl: "",
+    imageUrl:
+      "https://github.com/hozhai/byte-web/blob/main/public/zhai.jpg?raw=true",
   },
   {
     name: "Carolina Gailey",
