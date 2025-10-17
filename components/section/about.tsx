@@ -12,9 +12,8 @@ const ABOUT_CONTENT = {
     curiosidad, ganas de aprender y muchas ganas de construir. Únete a Byte
     y sé parte de una comunidad que transforma la creatividad en impacto
     real.`,
-  videoSrc:
-    "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?si=-ZbRgDnlbHfPTYqe",
-  thumbnailSrc: "https://placehold.co/1280x720/png",
+  videoSrc: "https://youtube.com/embed/pSir4b96K70?si=gosU8TfUuHC2wHSo",
+  thumbnailSrc: "https://placehold.co/1280x720/000000/000000/png",
   thumbnailAlt: "Video de presentación de Byte",
 } as const;
 
