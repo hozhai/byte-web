@@ -17,7 +17,8 @@ export const TEAM_MEMBERS = [
     name: "Carolina Gailey",
     description:
       "Soy Carolina Cantoli y ocupo el puesto de tesorera en Byte. Creo que la oportunidad de aprender y cultivar las pasiones, independientemente de la posición social o económica, es un derecho humano. La robótica, en particular, es el futuro del mundo, y esta convicción fue la base de mi pasión por Byte: promover la educación accesible para todos. He participado en múltiples proyectos que impulsan estos ideales, como ser cofundadora de Facilite, una iniciativa para democratizar la educación financiera. Además, tengo experiencia en corporate finance y gestión de riesgos crediticios para empresas. Ahora, busco llevar mi pasión y experiencia a Byte para hacer de la robótica un pilar fundamental al alcance de todos los que la amen.",
-    imageUrl: "",
+    imageUrl:
+      "https://github.com/hozhai/byte-web/blob/main/public/caro.jpg?raw=true",
   },
   {
     name: "Niek Stoffels",

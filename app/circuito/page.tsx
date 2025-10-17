@@ -24,7 +24,7 @@ export default function Page() {
           <h1 className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-[#f472b6] text-stroke text-glow-fuchsia-400 text-center">
             <TextAnimate delay={0.5}>Circuito</TextAnimate>
           </h1>
-          <h1 className="font-display text-6xl sm:text-8xl md:text-[10rem] lg:text-[15rem] text-[#22d3ee] -mt-8 sm:-mt-12 md:-mt-16 text-stroke text-glow-sky-400 text-center">
+          <h1 className="font-display text-6xl sm:text-8xl md:text-[10rem] lg:text-[15rem] text-[#22d3ee] sm:mt-2 md:mt-4 text-stroke text-glow-sky-400 text-center">
             <TextAnimate delay={0.75}>2025</TextAnimate>
           </h1>
         </motion.div>
